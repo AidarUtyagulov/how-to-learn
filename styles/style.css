@@ -83,19 +83,52 @@
   margin-top: 80px;
 }
 
-/* добавлены границы
+
 
 .content {
+  border: 5px solid green;
+}
+
+
+
+.description {
+  display: flex;
+  padding: 100px 0;
+}
+
+.two-columns {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+
+
+          border: 5px solid black;
+}
+.two-columns__brief {
+  width: 175px;
   margin: 0;
-  padding: 0;
+  display: flex;
   border: 5px solid red;
 }
 
-.description {
-  border: 5px solid red;
+/* проблема тут??? */
+
+.two-columns__main-text {
   margin: 0;
   padding: 0;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid yellow;
 }
+
+.two-columns__paragraph {
+  border: 2px solid red;
+}
+
+/* добавлены границы
 
 .digits {
   border: 5px solid red;
