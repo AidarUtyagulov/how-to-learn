@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* Тут шапка */
+
 .header {
   display: flex;
   margin: 0;
@@ -20,8 +22,6 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   z-index: -3;
-
-  /* border: 5px solid red; */
 }
 
 .logo_place_header {
@@ -83,75 +83,61 @@
   margin-top: 80px;
 }
 
-
+/* ниже Основной контент */
 
 .content {
-  border: 5px solid green;
+
 }
 
-
+/* ниже Блок 'Главные проблемы обучения' */
 
 .description {
   display: flex;
-  padding: 100px 0;
 }
 
 .two-columns {
-  margin: auto;
+  margin: 100px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-
-
-          border: 5px solid black;
 }
+
 .two-columns__brief {
   width: 175px;
-  margin: 0;
+  margin-top: 0;
   display: flex;
-  border: 5px solid red;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-/* проблема тут??? */
-
 .two-columns__main-text {
-  margin: 0;
-  padding: 0;
   width: 80%;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 5px solid yellow;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
-  border: 2px solid red;
-}
-
-/* добавлены границы
-
-.digits {
-  border: 5px solid red;
   margin: 0;
-  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-.feynman {
-  border: 5px solid red;
-  margin: 0;
-  padding: 0;
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.kaufman{
-  border: 5px solid red;
-  margin: 0;
-  padding: 0;
+.two-columns__paragraph:not(:last-child) {
+  margin-bottom: 30px;
 }
+
+/* Ниже границы Блоков*/
 
 .footer {
   border: 5px solid red;
   margin: 0;
   padding: 0;
 }
-
-*/
