@@ -83,13 +83,13 @@
   margin-top: 80px;
 }
 
-/* ниже Основной контент */
+/* ниже Основной контент content */
 
 .content {
 
 }
 
-/* ниже Блок 'Главные проблемы обучения' */
+/* ниже Блок description */
 
 .description {
   display: flex;
@@ -137,10 +137,10 @@
   margin-bottom: 30px;
 }
 
-/* ниже Блок таблицы */
+/* ниже Блок таблицы - digitis*/
 
 .digits {
-  padding: 100px auto;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
         border: 2px solid red;
@@ -150,31 +150,56 @@
   width: 60%;
   margin: auto;
   text-align: center;
-  border: 3px solid black
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .section-subtitle {
   width: 60%;
   margin: 20px auto 0;
   text-align: center;
-  border: 3px solid green
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table {
   width: 1100px;
   margin: 0 auto;
-  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-  border: 3px solid red
+        border: 3px solid green
 }
 
 .table__cell {
   width: 250px;
-  border: 3px solid black
+  margin-top: 60px;
 }
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+/* Нужен ли он? Вернуться позже к нему ! Убрать нижний отступ!
+
+.table__text_bottom{}
+
+*/
 
 /* Ниже границы Блоков*/
 
