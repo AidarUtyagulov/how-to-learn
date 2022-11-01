@@ -203,8 +203,6 @@
   background-position: left bottom;
   min-width: 867px;
   min-height: 637px;
-  border: 5px solid black;
-
 }
 
 .feynman__title {
@@ -237,7 +235,6 @@
 
 .kaufman {
   position: relative;
-  border: 5px solid red;
   background-color: #1f1f1f;
   color: white;
   z-index: -2;
