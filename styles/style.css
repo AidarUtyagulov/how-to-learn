@@ -83,7 +83,7 @@
   margin-top: 80px;
 }
 
-/* ниже Основной контент content */
+/* ниже content */
 
 .content {
 
@@ -137,7 +137,7 @@
   margin-bottom: 30px;
 }
 
-/* ниже Блок таблицы - digitis*/
+/* ниже Блок digitis*/
 
 .digits {
   padding: 100px 0;
@@ -195,13 +195,7 @@
   padding: 0;
 }
 
-/* Нужен ли он? Вернуться позже к нему ! Убрать нижний отступ!
-
-.table__text_bottom{}
-
-*/
-
-/* Ниже границы Блоков*/
+/* Ниже footer*/
 
 .footer {
   border: 5px solid red;
