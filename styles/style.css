@@ -136,6 +136,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .section-subtitle {
@@ -145,6 +146,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .table {
@@ -227,16 +229,15 @@
   background-color: #1f1f1f;
   overflow: hidden;
   padding: 90px 0;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
   color: white;
-  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 2;
 }
 
 .table_theme_dark {
@@ -257,6 +258,7 @@
   background-repeat: no-repeat;
   top: 0;
   right: -210px;
+  z-index: -1;
 }
 
 /* Ниже footer*/
