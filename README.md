@@ -41,5 +41,5 @@ Alt-H1
 # H2 Скриншот:
 Alt-H1
 ------
-[./images/scrin.png]
+[/images/scrin.png]
 
