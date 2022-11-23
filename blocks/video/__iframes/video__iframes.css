@@ -3,6 +3,8 @@
   height: 316px;
   top: 50px;
   margin: 0 auto 0;
+  padding: 0;
   display: flex;
   position: relative;
+  list-style-type: none;
 }
